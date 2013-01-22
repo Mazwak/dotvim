@@ -1,7 +1,14 @@
 " Chargement de pathogen
 execute pathogen#infect()
 
-set bg=dark
+if $TERM == 'xterm-256color'
+	set t_Co=256
+	let g:molokai_original=1
+	colorscheme molokai
+else
+	colorscheme default
+endif 
+
 syntax on
 filetype plugin indent on
 
