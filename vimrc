@@ -21,3 +21,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 " Supertab
 let g:SuperTabDefaultCompletionType="context"
 set completeopt=menuone,longest,preview
+
+" Taglist
+map <F8> <Esc>:TlistToggle<CR>
