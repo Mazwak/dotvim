@@ -3,11 +3,9 @@ execute pathogen#infect()
 
 if $TERM == 'xterm-256color'
 	set t_Co=256
-	let g:molokai_original=1
-	colorscheme molokai
-else
-	colorscheme default
 endif 
+let g:molokai_original=1
+colorscheme molokai
 
 " Activation de l'indentation automatique
 set autoindent
