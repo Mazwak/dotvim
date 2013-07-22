@@ -9,8 +9,9 @@ colorscheme molokai
 
 " Activation de l'indentation automatique
 set autoindent
+set smartindent
 " Redéfinition des tabulations
-set noexpandtab
+set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
